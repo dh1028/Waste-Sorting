@@ -1,0 +1,105 @@
+h1 {
+  text-align: center;
+  margin-top: 16%;
+  font-size: 35px;
+  letter-spacing: 15px;
+  font-weight: bolder;
+  color: rgb(235, 35, 35);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+h2 span {
+  color: rgb(85, 131, 218);
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background: #f4f8fc;
+  margin : 20px auto;
+  width : 300px;
+  height : 54px;
+  overflow: hidden;
+  text-align : center;
+  transition : .2s;
+  cursor : pointer;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+.btnTwo {
+  position : relative;
+  width : 200px;
+  height : 100px;
+  margin-top: -100px;
+  padding-top: 2px;
+  background : rgb(126, 152, 199);
+  left : -200px;
+  transition : .3s;
+}
+.button:hover .btnTwo{ /*When hovering over .button change .btnTwo*/
+  left: -135px;
+}
+
+.btnThree {
+  position : relative;
+  width : 200px;
+  height : 100px;
+  margin-top: -100px;
+  padding-top: 2px;
+  background : rgb(126, 152, 199);
+  right : -300px;
+  transition : .3s;
+}
+.button:hover .btnThree{ /*When hovering over .button change .btnTwo*/
+  right: -235px;
+}
+
+.btnText1 {
+  color : #3D4C53;
+  transition : .3s;
+}
+.button:hover .btnText1{ /*When hovering over .button change .btnText*/
+  margin-left : 65px;
+}
+
+.btnText11 {
+  color : #3D4C53;
+  transition : .3s;
+}
+.button:hover .btnText11{ /*When hovering over .button change .btnText*/
+  margin-right : 65px;
+}
+
+.btnText2 {
+  margin-top : 63px;
+  margin-right : -135px;
+  color : #FFF;
+}
+.button:hover .btnText2 {
+  margin-right : -15;
+}
+.btnText3 {
+  margin-top : 63px;
+  margin-left : -133px;
+  color : #FFF;
+}
+
+.button:active { /*Clicked and held*/
+  box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
+}

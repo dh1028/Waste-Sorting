@@ -1,0 +1,31 @@
+h1 {
+  margin-top: 20%;
+  font-size: 35px;
+}
+
+.center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+.start-button {
+  padding: 10px 210px;
+  border-top-width: 10px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  font-size: 18px;
+  border-color: rgb(126, 152, 199);
+  background-color: #f4f8fc;
+  cursor : pointer;
+  margin-top: 10px;
+  letter-spacing: 13px;
+  font-weight: bolder;
+}
+
+.start-button:hover {
+  background: #cfd8e1;
+  border-color: rgb(84, 109, 155);
+}
